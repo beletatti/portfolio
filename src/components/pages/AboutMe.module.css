@@ -1,13 +1,19 @@
-.imgOne{
+.aboutme_container {
+    position: relative;
+    left: 10em;
+}
+
+.imgOne {
     width: 250px;
     margin: 2em 0;
     border: 2px solid #222;
 }
 
-.ibmIcon {
+.icon {
     width: 200px;
     position: relative;
-    left: 15em;
+    left: 20em;
+    border: 2px solid #222;
 }
 
 .textOne {
@@ -22,4 +28,38 @@
     margin-top: 12em;
     position: relative;
     right: 20em;
+}
+
+.textThree {
+    margin: 0 20em;
+    position: relative; 
+    right: 20em;
+}
+
+
+.wyden {
+    width: 260px;
+    position: relative;
+    right:18em;
+    top: 3em;
+    border: 2px solid #222;
+}
+
+.experience {
+    margin: 0 20em;
+    position: relative;
+    padding-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.azure {
+    width: 200px;
+    position: relative;
+    left: 20em;
+    border: 2px solid #222;
+}
+
+.training {
+    padding-bottom: 10em;
 }
