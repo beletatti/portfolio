@@ -1,0 +1,25 @@
+.imgOne{
+    width: 250px;
+    margin: 2em 0;
+    border: 2px solid #222;
+}
+
+.ibmIcon {
+    width: 200px;
+    position: relative;
+    left: 15em;
+}
+
+.textOne {
+    margin: 0 20em;
+    position: relative;
+    padding-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.textTwo {
+    margin-top: 12em;
+    position: relative;
+    right: 20em;
+}
