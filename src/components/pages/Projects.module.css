@@ -1,0 +1,52 @@
+.myProjects_container {
+    padding: 0;
+    margin: 0;
+}
+
+.myProjects_container ul {
+    list-style: none;
+    display: flex;
+}
+
+.projects {
+    background-color: #202024;
+    border: 3px solid #FFBB33;
+    margin: 5px;
+}
+
+.myProjects_container h2 {
+    margin-left: 20em;
+    color: #FFBB33;
+    text-shadow: 2px 2px 3px #202024;
+    text-transform: uppercase;
+}
+
+.myProjects_container p, h3 {
+    color: white;
+    text-align: center;
+}
+
+.projects a {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;  
+    color: #ffbb33; 
+}
+
+
+.button {
+    height:50px;
+    width:100px;
+    background-color:#202024;
+    color: ##ffbb33;
+    border-color: #ffbb33;
+    border-radius: 10px;
+    margin-left: 10.5em;
+    margin-top:1em;
+    margin-bottom: 2em;
+}
+
+.partTwo {
+    padding-bottom: 3em;
+}
