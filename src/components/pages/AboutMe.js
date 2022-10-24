@@ -33,7 +33,9 @@ function AboutMe() {
                     <p>Início: Fevereiro de 2021 | Término: Maio 2022</p>
                 </div>
 
-                <img className={styles.icon} src={cietIcon} align="left" alt="cietIcon" />
+                <img className={styles.icon} src={cietIcon} align="left" alt="cietIcon" sizes='(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px'/>
                 <div className={styles.experienceArea}>
                     <h3>Ci&T</h3>
                     <p>Início: Janeiro de 2019 | Término: Janeiro 2020</p>

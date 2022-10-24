@@ -1,50 +1,107 @@
 .aboutme_container {
-    margin-left: 5em;
+  margin-left: 5em;
 }
 
 .aboutme {
-    margin: 0 20em;
-    position: relative;
-    padding-top: 2em;
-    align-items: center;
-    justify-content: center;
+  margin: 0 20em;
+  position: relative;
+  padding-top: 2em;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgOne {
-    width: 250px;
-    margin: 2em 0;
-    border: 2px solid #222;
+  width: 250px;
+  margin: 2em 0;
+  border: 2px solid #222;
 }
 
 .experience {
-    margin-top: 10em;
-    right: 16em;
-    padding-bottom: 1em;
+  margin-top: 10em;
+  right: 16em;
+  padding-bottom: 1em;
 }
 
 .experienceArea {
-    position: relative;
-    left: 1em;
-    padding-bottom: 1em;
+  position: relative;
+  left: 1em;
+  padding-bottom: 1em;
 }
 
 .icon {
-    width: 150px;
-    border: 2px solid #222;
+  width: 150px;
+  border: 2px solid #222;
 }
 
 .wyden {
-    width: 260px;
-    position: relative;
-    right: 10em;
-    top: 5em;
-    border: 2px solid #222; 
+  width: 260px;
+  position: relative;
+  right: 10em;
+  top: 5em;
+  border: 2px solid #222;
 }
 
 .azure {
-    width: 100px;
-    position: relative;
-    right: 15em;
-    top: 2em;
-    border: 2px solid #222;
+  width: 100px;
+  position: relative;
+  right: 15em;
+  top: 2em;
+  border: 2px solid #222;
+}
+
+@media screen and (max-width: 400px) {
+    .aboutme_container {
+        margin-left: 1em;
+      }
+      
+      .aboutme {
+        margin: 0 10em;
+        padding-top: 2em;
+      }
+
+      .aboutme p {
+        width: 200px;
+        overflow-wrap: break-word;  
+        word-wrap: break-word; 
+        word-break: break-word;
+      }
+      
+      .imgOne {
+        width: 120px;
+        margin: 10em 0;
+        border: 2px solid #222;
+      }
+      
+      .experience {
+        margin-top: 10em;
+        right: 16em;
+        padding-bottom: 1em;
+      }
+      
+      .experienceArea {
+        position: relative;
+        left: 1em;
+        padding-bottom: 1em;
+      }
+      
+      .icon {
+        width: 100px;
+        border: 2px solid #222;
+      }
+      
+      .wyden {
+        width: 260px;
+        position: relative;
+        right: 10em;
+        top: 5em;
+        border: 2px solid #222;
+      }
+      
+      .azure {
+        width: 100px;
+        position: relative;
+        right: 15em;
+        top: 2em;
+        border: 2px solid #222;
+      }
 }

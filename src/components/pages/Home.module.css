@@ -1,29 +1,107 @@
-.home_container {
-    width: 100%;
+@media screen and (max-width: 1400px) {
+  .home_container {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .home_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 4em;
-}
-
-.home_container h1{
-    font-size: 2em;
-    margin-bottom: .5em;
-}
-
-.home_container h1 span {
+  }
+  
+  .home_container h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .home_container h1 span {
     color: #ffbb33;
-    padding: 0 .2em;
+    padding: 0 0.2em;
     background-color: #222;
-}
-
-.home_container p {
+  }
+  
+  .home_container p {
+    font-size: 1em;
     margin-bottom: 1.5em;
     color: #7b7b7b;
-}
-
-.home_container img {
+    padding-left: 0.5em;
+  }
+  
+  .home_container img {
     width: 350px;
     margin: 2em 0;
+    border: solid;
+  }
 }
+
+@media screen and (max-width: 900px) {
+  .home_container {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 55em;
+  }
+
+  .home_container h1 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  .home_container h1 span {
+    color: #ffbb33;
+    padding: 0 0.2em;
+    background-color: #222;
+  }
+
+  .home_container p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+    color: #7b7b7b;
+    text-align: center;
+  }
+
+  .home_container img {
+    width: 250px;
+    border: solid;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home_container {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 55em;
+  }
+
+  .home_container h1 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  .home_container h1 span {
+    color: #ffbb33;
+    padding: 0 0.2em;
+    background-color: #222;
+  }
+
+  .home_container p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+    color: #7b7b7b;
+    text-align: center;
+  }
+
+  .home_container img {
+    width: 250px;
+    border: solid;
+    margin-bottom: 1.5em;
+  }
+}
+
+
